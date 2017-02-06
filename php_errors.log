@@ -1,0 +1,23 @@
+[05-Feb-2017 17:54:06 UTC] PHP Warning:  require_once(wp_bootstrap_navwalker.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/themes/mycleancut/functions.php on line 76
+[05-Feb-2017 17:54:06 UTC] PHP Stack trace:
+[05-Feb-2017 17:54:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[05-Feb-2017 17:54:06 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[05-Feb-2017 17:54:06 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[05-Feb-2017 17:54:06 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[05-Feb-2017 17:54:06 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[05-Feb-2017 17:54:06 UTC] PHP   6. include() /home/ubuntu/workspace/wp-settings.php:425
+[05-Feb-2017 17:54:06 UTC] PHP Fatal error:  require_once(): Failed opening required 'wp_bootstrap_navwalker.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/themes/mycleancut/functions.php on line 76
+[05-Feb-2017 17:54:06 UTC] PHP Stack trace:
+[05-Feb-2017 17:54:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[05-Feb-2017 17:54:06 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[05-Feb-2017 17:54:06 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[05-Feb-2017 17:54:06 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[05-Feb-2017 17:54:06 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[05-Feb-2017 17:54:06 UTC] PHP   6. include() /home/ubuntu/workspace/wp-settings.php:425
+[05-Feb-2017 21:31:38 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/wp-content/themes/mycleancut/functions.php on line 32
+[05-Feb-2017 21:31:38 UTC] PHP Stack trace:
+[05-Feb-2017 21:31:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/customize.php:0
+[05-Feb-2017 21:31:38 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/customize.php:13
+[05-Feb-2017 21:31:38 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[05-Feb-2017 21:31:38 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[05-Feb-2017 21:31:38 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92

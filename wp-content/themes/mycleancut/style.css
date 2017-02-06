@@ -1,0 +1,210 @@
+/*
+Theme Name: mycleancut
+Theme URI: http://rplance.com/themes/mycleancut
+Author: cannelflow
+Author URI: http://rplance.com/
+Description: The 2017 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: mycleancut
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+nav.navbar.navbar-default {
+  margin-bottom:0px;
+}
+
+section.row.showcase.sec-1 {
+  width:auto;
+  height:auto;
+  text-align:center;
+  color:#fff;
+  animation-duration:2s;
+}
+
+div.showcase-content {
+  padding-top:10%;
+  width:77%;
+  margin:auto;
+  padding-bottom:25%;
+  letter-spacing:1px;
+}
+
+div.showcase-content p.lead {
+  border-bottom:1px solid #fff;
+  padding-bottom:10px;
+}
+
+div.showcase-content a.btn.btn-default.btn-lg {
+  margin-right:20px;
+}
+
+div.showcase-content h1 {
+  font-size:4em;
+}
+
+@media (max-width:1199px) {
+  div.showcase-content h1 {
+    font-size:3em;
+  }
+}
+
+div.showcase-content p.lead {
+  font-size:2em;
+}
+
+div.showcase-content a.btn.btn-default.btn-lg {
+  margin-bottom:10px;
+}
+
+section.sec-2.row {
+  padding:50px 0;
+  background-color:#f8f8f8;
+}
+
+section.sec-3.row {
+  padding:50px 0;
+  border-top:1px solid #e7e7e7;
+  border-bottom:1px solid #e7e7e7;
+}
+
+section.sec-4.row {
+  padding:50px 0;
+  background-color:#f8f8f8;
+}
+
+section.sec-5 {
+  color:#fff;
+  padding:70px 0;
+}
+
+section.sec-5 h2 {
+  font-size:2.5em;
+  margin-top:0;
+}
+
+@media (max-width:767px) {
+  section.sec-5 ul > li {
+    margin-right:50px;
+    margin-bottom:10px;
+  }
+}
+
+@media (max-width:1199px) {
+  section.sec-5 h2 {
+    margin-bottom:20px;
+  }
+}
+
+footer {
+  padding:50px 0;
+  background-color:#f8f8f8;
+}
+
+.sub-nav ul {
+  float:right;
+  padding-top:26px;
+  list-style:none;
+}
+
+.sub-nav li {
+  float:left;
+  padding-right:15px;
+  padding-left:15px;
+  border-right:1px #ccc solid;
+}
+
+section.row.title-bar {
+  border:#ddd 1px solid;
+}
+
+@media (max-width:767px) {
+  div.sub-nav {
+    float:left;
+    margin-left:-54px;
+    margin-bottom:10px;
+  }
+}
+
+section.article.row {
+  padding:30px 0;
+}
+
+.boxed-content i.fa {
+  width:60px;
+  height:60px;
+  background:#406da4;
+  color:#fff;
+  text-align:center;
+  line-height:58px;
+  float:left;
+}
+
+h2.boxed-content-title {
+  padding-left:73px;
+  text-align:left;
+}
+
+.boxed-content p {
+  padding-left:73px;
+}
+
+div.boxed-content.left-aligned.left-boxed-icon {
+  text-align:justify;
+  padding:0px;
+}
+
+section.gallery {
+  padding:20px 0;
+  background-color:rgb(248, 248, 248);
+}
+
+.article div.post-thumbnail {
+  margin-bottom:15px;
+}
+
+.article div.meta {
+  padding:10px;
+  border-top:1px solid grey;
+  border-bottom:1px solid grey;
+  margin-bottom:15px;
+}
+
+.article p {
+  text-align:justify;
+}
+
+.article img {
+  width:100%;
+  height:auto;
+}
+
+.blog-meta {
+  border-top:1px solid grey;
+  border-bottom:1px solid grey;
+  padding:10px;
+  margin-bottom:10px;
+}
+
+.excerpt {
+    font-size: 24px;
+    margin-bottom: 22px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.panel-default {
+    border-color: transparent;
+}
+
+.current_page_item, 
+.current-cat{
+  font-weight:bold;
+}
